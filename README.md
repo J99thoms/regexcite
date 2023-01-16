@@ -2,9 +2,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 **NOTE: This is a toy package created for educational purposes. It was
-created by following the [guide](https://r-pkgs.org/whole-game.html)
-found in the second edition of [R Packages](https://r-pkgs.org). It is
-not meant to actually be useful. If you want a package for factor
+created by following [this guide](https://r-pkgs.org/whole-game.html),
+which is from the second edition of [R Packages](https://r-pkgs.org). It
+is not meant to actually be useful. If you want a package for factor
 handling, please see [stringr](https://stringr.tidyverse.org).**
 
 # regexcite
@@ -30,7 +30,7 @@ devtools::install_github("J99thoms/regexcite")
 
 A fairly common task when dealing with strings is the need to split a
 single string into many parts. This is what `base::strplit()` and
-`stringr::str_split()` do: g
+`stringr::str_split()` do:
 
 ``` r
 (x <- "alfa,bravo,charlie,delta")
